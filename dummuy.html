@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        img{
+            width: 200px;
+            height: 100px;
+           transition-property: all;
+           transition-duration: 2s;
+
+        }
+        #t1:hover~img{
+            transform:skew(20deg);
+        }
+        #t2:hover~img{
+            transform:rotate(90deg);
+        }
+        #t3:hover~img{
+            transform:scale(1,2);
+        }
+        #t4:hover~img{
+            transform:translate(100px,400px);
+        }
+        
+    </style>
+</head>
+<body>
+   <button  id="t1">Naresh</button>
+   <button  id="t2" > nari</button><button  id="t3"> nar</button><button  id="t4">nar</button>
+    
+    <img src="./peakpx.jpg" alt="" >
+   
+
+    
+</body>
+</html>
